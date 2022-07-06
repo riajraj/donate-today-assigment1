@@ -1,0 +1,114 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+#header {
+    background-image: url(images/donation13.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    ;
+}
+
+#big_text {
+    font-size: 50px;
+}
+
+#banner-taxt {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(248, 219, 164), rgb(230, 45, 12));
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: 700;
+    color: white;
+}
+
+
+#ammount {
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.tk {
+    border-radius: 15%;
+    text-align: center;
+    margin: 20px 15px;
+    background-color: rgba(179, 197, 231, 0.582);
+    padding: 25px 30px;
+}
+#third-child{
+    border: 2px solid blue;
+}
+hr{
+    width: 50%;
+    margin-bottom: 20px;
+}
+form{
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;    
+}
+h1{
+    font-size: 50px;
+}
+
+#ourDonatePlan_child{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.donatePlan_child{
+    background-color: rgb(187, 243, 190);
+    margin-right: 15px;
+    padding: 10px;
+}
+.section{
+    text-align: center;
+}
+#form-box{
+    background-color: rgb(207, 186, 160);
+    height: 150px;
+    margin: auto;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+
+}
+
+#form_center{
+    display:block;
+    text-align:center;
+    padding:75px;
+        
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    
+}
+footer h3{
+    color: rgb(255, 127, 148);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 25px;
+    padding-top: 25px;
+}
+footer  p{
+    padding-bottom: 25px;
+}
